@@ -1,0 +1,35 @@
+[
+{
+    "title":"Java",
+    "image-src":"/assets/skills/java.png"
+},
+{
+    "title":"C/C++",
+    "image-src":"/assets/skills/c.png"
+},
+{
+    "title":"HTML",
+    "image-src":"/assets/skills/html.png"
+},{
+    "title":"CSS",
+    "image-src":"/assets/skills/css.png"
+},{
+    "title":"Javascript",
+    "image-src":"/assets/skills/javascript.png"
+},{
+    "title":"Node",
+    "image-src":"/assets/skills/node.png"
+},{
+    "title":"React",
+    "image-src":"/assets/skills/react.png"
+},{
+    "title":"Express",
+    "image-src":"/assets/skills/express.png"
+},{
+    "title":"MySql",
+    "image-src":"/assets/skills/mysql.png"
+},{
+    "title":"Git/GitHub",
+    "image-src":"/assets/skills/github.png"
+}
+]

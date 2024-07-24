@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+.sk{
+  margin-top:20vh;
+}
+.skills{
+    margin-bottom: 5vh;
+}
+.skills .items{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Yusei Magic", sans-serif;
+}
+.skills .items .item img{
+    width:6vw;
+    height:6vw;
+}
+.skills .items .item{
+    background-color: #05456c;
+    border: 2px solid black;
+    width: calc(28%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:3vh;
+    border: 2px solid  #d1eeff;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 5px #d1eeff;
+}
+.skills .items{
+    gap: 5vw;
+}
+@media (max-width: 1200px) {
+    .skills{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .items .item{
+        width: fit-content;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .item {
+      width: 160px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .items {
+      flex-direction: column;
+    }
+  
+    .item {
+      width: 80%;
+      margin: 10px auto;
+    }
+  
+    h1 {
+      font-size: 1.6rem;
+    }
+    .skills .items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: "Yusei Magic", sans-serif;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .item {
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    h1 {
+      font-size: 1.4rem;
+    }
+    .skills .items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: "Yusei Magic", sans-serif;
+        margin-top: 2vh;
+    }
+  }
